@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{2620e045-b4e9-48da-857c-5eb353815a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{afa8f331-cd38-4589-b690-a041dd69f15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{c8bada22-079b-48ee-894c-364517f596ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers">
+      <UniqueIdentifier>{13e1f499-3557-406a-bae9-f0354a030dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\00.AbstractFactory">
+      <UniqueIdentifier>{0c481512-f1d5-4e29-9c75-f5756856f3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\01.ObjMgr">
+      <UniqueIdentifier>{02d58d21-5df6-4b8f-a9fa-c319bff80591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object">
+      <UniqueIdentifier>{69e3e5cd-9a3e-4c8a-86a1-cc5c903d8961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\00.Entity">
+      <UniqueIdentifier>{9c2acf3b-c5cf-4a47-acca-e2e38ce67421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Block">
+      <UniqueIdentifier>{eed4714a-5947-4875-8c2a-a9ab801328ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\02.CollisionMgr">
+      <UniqueIdentifier>{3e4d3c74-2b3f-4446-bbc4-f824231351e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\03.MathMgr">
+      <UniqueIdentifier>{41e1854a-e522-424f-8307-1f83ac38f43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\04.KeyMgr">
+      <UniqueIdentifier>{6d8c345b-317e-4700-b5e9-764b005c670d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\05.ScrollMgr">
+      <UniqueIdentifier>{fe364b57-c72f-4917-bb71-b53a59802c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\06.BitmapMgr">
+      <UniqueIdentifier>{45c1ff29-98d3-4475-bf88-ff337f043cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\07.SceneMgr">
+      <UniqueIdentifier>{3841cb71-0372-4c94-918d-eb4af8d87627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\08.WorldMgr">
+      <UniqueIdentifier>{81271fc4-4f24-4622-98b5-dd391a139498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\07.SceneMgr\CScene">
+      <UniqueIdentifier>{a6160321-175b-43e7-ae3d-4bae5363adaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\07.SceneMgr\CScene\00.Ingame">
+      <UniqueIdentifier>{dd6735fb-e538-4d9d-957c-f5f6806c1f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\06.BitmapMgr\MyBmp">
+      <UniqueIdentifier>{8e944cb4-d131-438e-9845-981ceb706a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\00.Entity\00.Player">
+      <UniqueIdentifier>{1ba5b4e2-8e5a-454d-a924-d921c03cb9c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Block\00.Air">
+      <UniqueIdentifier>{91424143-74f5-4cc8-99ff-0d0d581794c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Item">
+      <UniqueIdentifier>{d78d3f56-ab8a-447f-bd0b-67b091cd629c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\09.InvMgr">
+      <UniqueIdentifier>{2a59a32f-99cb-4128-b748-86772ce4c476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\10.UIMgr">
+      <UniqueIdentifier>{22f03080-7ce9-48d4-8f57-0e0d512b047c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\06.BitmapMgr\00.ItemBmpMgr">
+      <UniqueIdentifier>{1a5df8cf-8853-405e-9961-fb856af7e165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Bullet">
+      <UniqueIdentifier>{fbb7f9b7-ae6c-4467-beca-891af522a8a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Bullet\00.PlayerToolSwing">
+      <UniqueIdentifier>{43ff2d7c-f895-46e6-8e1b-0dc8c9bbf971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\00.Entity\01.Monster">
+      <UniqueIdentifier>{5d40325e-f1bf-4962-88e8-0717c0e2bcd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\00.Entity\01.Monster\00.Zombie">
+      <UniqueIdentifier>{abd9200a-501d-4288-ac22-7589d41d639d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\08.WorldMgr\00.BlockMgr">
+      <UniqueIdentifier>{8890f9f1-593b-437d-b01c-1f1624750c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Item\01.StonePickaxe">
+      <UniqueIdentifier>{a0e27b30-9958-417f-9d1b-77813196da47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Item\04.StoneSword">
+      <UniqueIdentifier>{60e75b85-cd7c-4c60-9268-699780c6e8c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Item\02.Dirt">
+      <UniqueIdentifier>{64b65f38-c9f6-4c4d-abd7-0dbd50e66b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Item\03.Stone">
+      <UniqueIdentifier>{295df2da-8a91-4f16-ac38-4d48929a1372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Block\02.Stone">
+      <UniqueIdentifier>{67760cc0-961e-4643-9892-f0a8ee126d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Block\01.Dirt">
+      <UniqueIdentifier>{38c34a74-7371-41aa-a5a8-f1a7efe49919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\11.BackGroundMgr">
+      <UniqueIdentifier>{81c9874c-5718-4700-b0e2-f692b44fb5ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\12.TimeMgr">
+      <UniqueIdentifier>{c9ddff6e-7479-4889-a448-525dcbe70469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\13.LightMgr">
+      <UniqueIdentifier>{121d1c7c-a490-4472-a0c1-497d39059609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Mangagers\14.ItemCreateMgr">
+      <UniqueIdentifier>{fd545d7e-d065-4f4e-bb51-8f218447ab3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Item\05.Torch">
+      <UniqueIdentifier>{a79072f2-500f-4588-82dd-1859966f2246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Block\03.Torch">
+      <UniqueIdentifier>{4db1f51f-1ae9-44fe-b847-3d9f4737bd7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Item\06.AwesomePickaxe">
+      <UniqueIdentifier>{6c059279-681c-4dc2-aa05-e6e092e6fa3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="Text.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyTerraria.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>97.Mangagers\01.ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>97.Mangagers\00.AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Typedef.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>01.Object\01.Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Dirt.h">
+      <Filter>01.Object\01.Block\01.Dirt</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>97.Mangagers\07.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Ingame.h">
+      <Filter>97.Mangagers\07.SceneMgr\CScene\00.Ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>97.Mangagers\07.SceneMgr\CScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpMgr.h">
+      <Filter>97.Mangagers\06.BitmapMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBmp.h">
+      <Filter>97.Mangagers\06.BitmapMgr\MyBmp</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMgr.h">
+      <Filter>97.Mangagers\08.WorldMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ClaimAllBlock.h">
+      <Filter>01.Object\01.Block</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>97.Mangagers\05.ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>97.Mangagers\04.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>01.Object\00.Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.Object\00.Entity\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>97.Mangagers\02.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Air.h">
+      <Filter>01.Object\01.Block\00.Air</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>01.Object\02.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="InvMgr.h">
+      <Filter>97.Mangagers\09.InvMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MathMgr.h">
+      <Filter>97.Mangagers\03.MathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMgr.h">
+      <Filter>97.Mangagers\10.UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBmpMgr.h">
+      <Filter>97.Mangagers\06.BitmapMgr\00.ItemBmpMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="StonePick.h">
+      <Filter>01.Object\02.Item\01.StonePickaxe</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>01.Object\01.Block\02.Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerToolSwing.h">
+      <Filter>01.Object\03.Bullet\00.PlayerToolSwing</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>01.Object\00.Entity\01.Monster\00.Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneSword.h">
+      <Filter>01.Object\02.Item\04.StoneSword</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Dirt.h">
+      <Filter>01.Object\02.Item\02.Dirt</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockMgr.h">
+      <Filter>97.Mangagers\08.WorldMgr\00.BlockMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Stone.h">
+      <Filter>01.Object\02.Item\03.Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGroundMgr.h">
+      <Filter>97.Mangagers\11.BackGroundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>97.Mangagers\12.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="LightMgr.h">
+      <Filter>97.Mangagers\13.LightMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCreateMgr.h">
+      <Filter>97.Mangagers\14.ItemCreateMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Torch.h">
+      <Filter>01.Object\02.Item\05.Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="Torch.h">
+      <Filter>01.Object\01.Block\03.Torch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyTerraria.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>97.Mangagers\01.ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>01.Object\01.Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Dirt.cpp">
+      <Filter>01.Object\01.Block\01.Dirt</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>97.Mangagers\07.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Ingame.cpp">
+      <Filter>97.Mangagers\07.SceneMgr\CScene\00.Ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>97.Mangagers\07.SceneMgr\CScene</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpMgr.cpp">
+      <Filter>97.Mangagers\06.BitmapMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBmp.cpp">
+      <Filter>97.Mangagers\06.BitmapMgr\MyBmp</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldMgr.cpp">
+      <Filter>97.Mangagers\08.WorldMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>97.Mangagers\05.ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>97.Mangagers\04.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>01.Object\00.Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.Object\00.Entity\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>97.Mangagers\02.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Air.cpp">
+      <Filter>01.Object\01.Block\00.Air</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>01.Object\02.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="InvMgr.cpp">
+      <Filter>97.Mangagers\09.InvMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MathMgr.cpp">
+      <Filter>97.Mangagers\03.MathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMgr.cpp">
+      <Filter>97.Mangagers\10.UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBmpMgr.cpp">
+      <Filter>97.Mangagers\06.BitmapMgr\00.ItemBmpMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="StonePick.cpp">
+      <Filter>01.Object\02.Item\01.StonePickaxe</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>01.Object\01.Block\02.Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerToolSwing.cpp">
+      <Filter>01.Object\03.Bullet\00.PlayerToolSwing</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>01.Object\00.Entity\01.Monster\00.Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneSword.cpp">
+      <Filter>01.Object\02.Item\04.StoneSword</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Dirt.cpp">
+      <Filter>01.Object\02.Item\02.Dirt</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockMgr.cpp">
+      <Filter>97.Mangagers\08.WorldMgr\00.BlockMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Stone.cpp">
+      <Filter>01.Object\02.Item\03.Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGroundMgr.cpp">
+      <Filter>97.Mangagers\11.BackGroundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>97.Mangagers\12.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="LightMgr.cpp">
+      <Filter>97.Mangagers\13.LightMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemCreateMgr.cpp">
+      <Filter>97.Mangagers\14.ItemCreateMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Torch.cpp">
+      <Filter>01.Object\02.Item\05.Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="Torch.cpp">
+      <Filter>01.Object\01.Block\03.Torch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="MyTerraria.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyTerraria.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

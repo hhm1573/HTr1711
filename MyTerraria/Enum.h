@@ -1,0 +1,9 @@
+//#pragma once
+#ifndef __ENUM_H__
+#define __ENUM_H__
+
+enum OBJID { OBJ_PLAYER, OBJ_MONSTER, OBJ_FRIENDLY_PROJECTILE, OBJ_ITEM, OBJ_END };
+
+enum MY_SIDE { SIDE_LEFT, SIDE_TOP, SIDE_BOTTOM, SIDE_RIGHT };
+
+#endif // !__ENUM_H__
